@@ -1,2 +1,2 @@
-# UITLib
-UI Testing tool for Windows Applications
+# ATFLib
+Automated Testing Framework for testing UI driven applications.

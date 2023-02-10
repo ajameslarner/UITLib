@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>UI Test Method</Title>
+      <Author>Anthony Larner</Author>
+      <Description>UI Test Method Template with 3 Parts</Description>
+      <HelpUrl></HelpUrl>
+      <SnippetTypes />
+      <Keywords />
+      <Shortcut>uit</Shortcut>
+    </Header>
+    <Snippet>
+      <References />
+      <Imports />
+      <Declarations>
+        <Literal Editable="true">
+          <ID>uow</ID>
+          <Type></Type>
+          <ToolTip>Name of the unit of work or scenario under test</ToolTip>
+          <Default>UnitOfWork</Default>
+          <Function></Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>initialcondition</ID>
+          <Type></Type>
+          <ToolTip></ToolTip>
+          <Default>InitialCondition</Default>
+          <Function></Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>expectedresult</ID>
+          <Type></Type>
+          <ToolTip>What your expected result is</ToolTip>
+          <Default>ExpectedResult</Default>
+          <Function></Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="method decl" Delimiter="$">
+		<![CDATA[[UITestMethod]
+public void $uow$_$initialcondition$_$expectedresult$()
+{
+	//Setup
+	$end$
+	//Sequence
+
+	//Settle
+	
+	Settle.IsTrue(true);
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
